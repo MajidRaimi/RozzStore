@@ -1,0 +1,28 @@
+.appBar {
+    background-color: cadetblue;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+#floatingActionButton {
+    background: #55b947;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 2%;
+    bottom: 3%;
+    margin: 10px;
+}
+
+.centerMe {
+    position: relative ;
+    align-content: center;
+    justify-content: center;
+    padding-top: 10px;
+}
