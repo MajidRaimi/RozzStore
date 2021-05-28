@@ -230,3 +230,68 @@ footerColThree{
     padding-left: 10px ;
     align-items: center;
 }
+
+
+.menu{
+    width: 28px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+
+/* Media Query For Menu */
+
+@media only screen and (max-width : 800px){
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #E6D097;
+        width: 100%;
+        /* transform: rotate(180deg); */
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin-right: 50px ;
+        margin-top: 10px;
+        margin-bottom: 10px ;
+        /* transform: rotate(-180deg); */
+        /* padding-right: 25px; */
+        
+    }
+
+    nav ul li a{
+        color: white;
+    }
+    .menu{
+        display: block ; 
+        cursor: pointer;
+    }
+
+}
+
+
+/* Media Query For Page */
+
+@media only screen and (max-width: 600px){
+
+    .row{
+        text-align: center;
+        
+    }
+    .col , .col-3 , .col-4{
+        flex-basis: 100%;
+        align-items: center;
+    }
+    .col img {
+        padding-left:  0px;
+    }
+   
+
+
+} 
